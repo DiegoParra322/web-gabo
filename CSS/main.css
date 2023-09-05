@@ -14,6 +14,12 @@ img#logo {
     width: 8rem;
     padding: 0.5rem;
 }
+.menu-principal {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+}
 
 a {
     text-decoration: none;
@@ -28,6 +34,7 @@ a {
     background-color: #b4c2dd;
     color: white;
 }
+
 .banner {
     background-image: url('../images/banner.jpg');
     background-repeat: no-repeat;
@@ -45,7 +52,38 @@ a {
     text-transform: uppercase;
     font-size: 2.6rem;
     width: 25%;
-    margin-right: 4rem;
+    margin-right: 3rem;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 4rem;
+}
+
+.section-item {
+    width: 5rem;
+    height: 5rem;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.obras {
+    padding: 2.2rem 0;
+}
+
+.text-anchor {
+    font-size: .55rem;
+    padding: 1.2rem 0.8rem;
+    margin: 0;
+    text-transform: uppercase;
 }
 footer {
     background-color: pink;
